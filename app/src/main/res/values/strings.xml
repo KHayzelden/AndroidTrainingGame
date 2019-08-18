@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TrainingGame</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="aboutText">Welcome to the brain training game!\n\n The aim of the game is to improve your maths skills. There will be a series of questions that will test your ability to solve basic equations.\n\n Each equation will be randomly generated and you will recieve a score based on your ability to solve them, as well as how quickly you do.\n\n There are four difficulties to choose from: novice, easy, medium, and guru.\n The higher a difficulty you choose, the longer the equation!</string>
+</resources>

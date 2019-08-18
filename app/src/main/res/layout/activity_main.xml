@@ -1,0 +1,77 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whiteBackground"
+    tools:context="com.example.krishayzelden.traininggame.main">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:keepScreenOn="true"
+        android:text="Brain\nTraining"
+        android:textColor="@color/greenTitle"
+        android:textSize="100sp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+        <LinearLayout
+            android:id="@+id/menuButtons"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:orientation="vertical"
+            android:layout_gravity="center|bottom"
+            tools:ignore="UselessParent">
+
+            <Button
+                android:id="@+id/newGameButton"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:textColor="@color/text"
+                android:textSize="20sp"
+                android:background="@drawable/menu_button"
+                android:text="New Game" />
+
+            <Button
+                android:id="@+id/continueButton"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:textColor="@color/text"
+                android:textSize="20sp"
+                android:background="@drawable/menu_button"
+                android:text="Continue" />
+
+            <Button
+                android:id="@+id/aboutButton"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:textColor="@color/text"
+                android:textSize="20sp"
+                android:background="@drawable/menu_button"
+                android:text="About" />
+
+            <Button
+                android:id="@+id/exitButton"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:textColor="@color/text"
+                android:textSize="20sp"
+                android:background="@drawable/menu_button"
+                android:text="Exit" />
+
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>
